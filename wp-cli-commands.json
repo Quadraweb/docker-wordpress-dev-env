@@ -1,0 +1,29 @@
+[
+  {
+    "command": "core install",
+    "args": {
+      "url": "http://localhost",
+      "title": "MySite",
+      "admin_user": "admin",
+      "admin_password": "admin",
+      "admin_email": "admin@example.com"
+    }
+  },
+  {
+    "command": "plugin install",
+    "args": {
+      "slug": "classic-editor",
+      "activate": true,
+      "insecure": true
+    }
+  },
+  {
+    "command": "post create",
+    "args": {
+      "post_type": "=page",
+      "post_title": "About Us",
+      "post_content": "This is the about us page.",
+      "post_status": "publish"
+    }
+  }
+]
