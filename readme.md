@@ -41,6 +41,11 @@ At the core of Quadraweb’s philosophy is **simplicity and speed**. This enviro
 git clone https://github.com/Quadraweb/docker-wordpress-dev-env
 ```
 
+**To clone the corresponding branch for WordPress version 6.7.1, use the following corrected syntax:**
+```bash
+git clone --branch wp-6.7.1 https://github.com/Quadraweb/docker-wordpress-dev-env
+```
+
 ```bash
 cd docker-wordpress-dev-env
 ```
